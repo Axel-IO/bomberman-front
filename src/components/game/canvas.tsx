@@ -162,7 +162,8 @@ export function Canvas() {
   };
 
   const connectSocket = async () => {
-    await socketService.connect("http://localhost:9000").catch((err) => {
+    const server_url = process.env.REACT_APP_API_URL || "http://localhost:9000"
+    await socketService.connect(server_url).catch((err) => {
       console.log("Error: ", err);
     });
   };

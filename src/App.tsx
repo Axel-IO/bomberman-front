@@ -37,13 +37,13 @@ function App() {
   const [isPlayerTurn, setPlayerTurn] = useState(false);
   const [isGameStarted, setGameStarted] = useState(false);
 
-  const connectSocket = async () => {
-    const socket = await socketService
-      .connect("http://localhost:9000")
-      .catch((err) => {
-        console.log("Error: ", err);
-      });
-  };
+//   const connectSocket = async () => {
+//     const socket = await socketService
+//       .connect("http://localhost:9000")
+//       .catch((err) => {
+//         console.log("Error: ", err);
+//       });
+//   };
 
   // useEffect(() => {
   //     console.log("USE EFFECT CONNECT SOCKET");
