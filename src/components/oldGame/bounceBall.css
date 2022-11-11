@@ -1,0 +1,18 @@
+.BounceBall {
+    width: 100vw;
+    height: 100vh;
+}
+
+.circle {
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    position: fixed;
+    width: 75px;
+    height: 75px;
+    background-position: center;
+    background-image: url("https://img.icons8.com/officel/80/000000/football2--v2.png");
+    background-color: #ffffff;
+    border-radius: 50px;
+    background-repeat: no-repeat;
+}
