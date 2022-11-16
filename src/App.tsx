@@ -1,11 +1,11 @@
 // @typescript-eslint/no-unused-vars
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import styled from "styled-components";
 import "./App.css";
-import { JoinRoom } from "./components/joinRoom";
+// import { JoinRoom } from "./components/joinRoom";
 import GameContext, { IGameContextProps } from "./gameContext";
-import { Game } from "./components/oldGame";
-import socketService from "./services/socketService";
+// import { Game } from "./components/oldGame";
+// import socketService from "./services/socketService";
 // import BounceBall from "./components/oldGame/bounceBall";
 import { Canvas } from "./components/game/canvas";
 

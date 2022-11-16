@@ -20,6 +20,12 @@
   background-color: rgba(217, 191, 191, 0.5);
 }
 
-.testdiv {
+.test-square {
   border: 1px solid black;
+  flex: 1;
 }
+
+.test-row {
+    display: flex;
+    flex: 1;
+  }
